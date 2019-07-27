@@ -229,3 +229,16 @@ reg_test.best_score_
 reg_test.best_estimator_
 reg_test.best_params_
 ```
+from sklearn.ensemble import RandomForestClassifier
+# Create an instance
+clf = RandomForestClassifier(max_depth=4)
+# Fit the data
+clf.fit(X,y)
+```
+
+# Gradient Boosting Tree
+```python
+# Load the library
+from sklearn.ensemble import GradientBoostingClassifier
+# Create an instance
+clf = GradientBoostingClassifier(max_depth=4)
